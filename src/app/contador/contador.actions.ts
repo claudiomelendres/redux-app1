@@ -13,4 +13,4 @@ export const dividirAction = createAction(
   props<{divisor: number}>()
 );
 
-// export const reset = createAction('[Contador Componente] Resetear');
+export const resetAction = createAction('[Contador Componente] Resetear');
